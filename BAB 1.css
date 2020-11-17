@@ -1,0 +1,189 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+#daftarisi {
+  min-height: 800px;
+  max-height: auto;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  max-width: auto;
+  background-image: linear-gradient(
+    to left,
+    rgb(138, 233, 166),
+    rgb(209, 226, 214)
+  );
+}
+
+#materi {
+  min-height: 800px;
+  max-height: auto;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  max-width: auto;
+  background-image: linear-gradient(to left, lightsalmon, rgb(250, 193, 170));
+}
+
+
+#permat {
+  min-height: 800px;
+  max-height: auto;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  max-width: auto;
+  background-image: linear-gradient(to left, palevioletred, rgb(214, 146, 169));
+}
+#perfis {  
+  min-height: 800px;
+  max-height: auto;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  max-width: auto;
+  background-image: linear-gradient(to top, palegreen, rgb(212, 241, 212));
+}
+#perkim {
+  min-height: 800px;
+  max-height: auto;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  max-width: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(214, 190, 179),
+    rgb(201, 165, 149)
+  );
+}
+
+.responsive {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.responsive img {
+  position: absolute;
+  max-width: 120%;
+  max-height: 120%;
+  padding: 2px;
+  border: black 2px solid;
+}
+
+#kanan{
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+#kanan{
+  display: none;
+}
+
+
+#bawah{
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+#bawah{
+  display: none;
+}
+
+
+.responsive {
+  width: 100%;
+  height: 0;
+  padding-bottom: 20%;
+  position: relative;
+}
+
+.responsive embed {
+  width: auto;
+  height: auto;
+  position: absolute;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 200%;
+  padding: 5px;
+  border: black 2px solid;
+}
+
+
+
+#perkim2{
+  min-height: 700px;
+  max-height: auto;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  max-width: auto;
+  background-image: linear-gradient(
+    to top,
+    rgb(242, 243, 189),
+    rgb(185, 248, 166)
+  );
+}
+
+
+#perfis2{
+  min-height: 700px;
+  max-height: auto;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  max-width: auto;
+  background-image: linear-gradient(
+    to top,
+    rgb(189, 202, 243),
+    rgb(248, 166, 166)
+  );
+}
